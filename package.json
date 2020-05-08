@@ -1,0 +1,31 @@
+{
+  "name": "moviescrap",
+  "version": "1.0.0",
+  "description": "Scraping kinopoisk for movies info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "get-lists": "node getFilmsList.js",
+    "get-content-from-list": "node getContentFromList.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatrineRoss/moviescrap.git"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2"
+  },
+  "keywords": [
+    "webscrap",
+    "parser",
+    "webparser"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatrineRoss/moviescrap/issues"
+  },
+  "homepage": "https://github.com/KatrineRoss/moviescrap#readme"
+}
